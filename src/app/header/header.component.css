@@ -1,0 +1,31 @@
+nav{
+    letter-spacing: 2.5px;
+}
+
+header{
+    width: 100%;
+    float: left;
+    /* background-color: whitesmoke; */
+}
+
+.right-nav{
+    float: right;
+    margin-right: 50px;
+}
+
+.left-nav ul li{
+    float: left;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+button{
+    font-size: small;
+}
+
+a{
+    font-weight: bold;
+    color: black;
+    text-decoration: solid;
+}
+
