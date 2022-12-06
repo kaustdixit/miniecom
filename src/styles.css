@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+li{
+    list-style: none;
+}
+/* h3{
+    margin-left: 35px;
+} */
+
+body
+{
+    margin-left: 51px;
+    margin-right: 51px;
+}
