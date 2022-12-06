@@ -28,7 +28,9 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -95,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "e0798d14-c9a5-4ffd-8555-00c9170265f7"
   }
 }

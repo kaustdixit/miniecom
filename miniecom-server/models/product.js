@@ -25,6 +25,18 @@ const productSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
+    label: {
+        type: String,
+        required: true
+    }
 });
 
 module.exports = mongoose.model('product', productSchema);
+
+
+
+// const masterTable = [
+//     {key: 'collection', values: [{displayLabel: 'Royal', value: 'royal'}]},
+//     {key: 'color', values: [{displayLabel: 'Black', value: 'black'}]},
+//     {key: 'category', values: [{displayLabel: 'Tables', value: 'tables'}]}
+// ]
